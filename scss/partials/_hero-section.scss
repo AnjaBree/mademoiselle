@@ -1,0 +1,28 @@
+.hero-section {
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 640px;
+    align-items: center;
+    justify-content: center;
+  
+    
+  &.services-section {
+    background-size: cover;
+  }
+
+  &.blog-section {
+    background-size: cover;
+  }
+  
+    h1 {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        font-size: 6rem;
+        line-height: 6.8rem;
+        max-width: 450px;
+        margin: 0 auto;  
+        text-align: center;
+    }
+}

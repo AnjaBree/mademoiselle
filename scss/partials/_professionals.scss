@@ -1,0 +1,60 @@
+.professionals-box {
+    padding: 3rem;
+    border: 2px solid rgba(236, 217, 217, 1);
+
+
+    .professional-card {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        padding: 2rem 4rem;
+    }
+
+    .professional-content {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+.professional-img {
+    overflow: hidden;
+}
+    img {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        transition: 0.5s linear;
+        
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    h5 {
+        font-family: $lato;
+        font-weight: 400;
+        font-size: 3.6rem;
+        line-height: 4.6rem;
+        margin-bottom: 1.7rem;
+    }
+
+    p {
+        font-family: $lato;
+        font-weight: 300;
+        font-size: 1.6rem;
+        line-height: 2.8rem;
+        margin-bottom: 0;
+    }
+
+    .owl-theme .owl-dots {
+        text-align: center;
+       
+
+    }
+
+
+
+
+
+ 
+}

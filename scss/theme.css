@@ -793,12 +793,12 @@ progress {
 }
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1116px;
+    max-width: 1140px;
   }
 }
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1116px;
+    max-width: 1140px;
   }
 }
 :root {
@@ -12217,6 +12217,22 @@ img {
   max-width: 100%;
 }
 
+h1, .h1 {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-family: "Playfair Display, serif";
+}
+
+h2, .h2 {
+  font-family: "Playfair Display, serif";
+}
+
+hr {
+  width: 90px;
+  border: solid 2px;
+  color: rgb(236, 217, 217);
+}
+
 header .navbar-brand {
   max-width: 200px;
   padding: 0px;
@@ -12257,4 +12273,264 @@ header .navbar-nav .nav-item .nav-link {
   header .navbar-nav .nav-item .nav-link {
     padding: 0;
   }
+}
+
+.hero-section {
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 640px;
+  align-items: center;
+  justify-content: center;
+}
+.hero-section.services-section {
+  background-size: cover;
+}
+.hero-section.blog-section {
+  background-size: cover;
+}
+.hero-section h1, .hero-section .h1 {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  font-size: 6rem;
+  line-height: 6.8rem;
+  max-width: 450px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.trends .trends-title {
+  padding: 65px 0;
+}
+.trends .trend-card {
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10rem;
+  overflow: hidden;
+}
+@media (min-width: 992px) {
+  .trends .trend-card {
+    margin-bottom: 5rem;
+  }
+}
+.trends .trend-card img {
+  display: block;
+  width: 35.6rem;
+  height: 23.6rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 100%;
+  transition: 0.5s linear;
+}
+.trends .trend-card img:hover {
+  transform: scale(1.03);
+}
+.trends .trend-card .trends-text {
+  position: absolute;
+  bottom: -7.5rem;
+  background-color: rgb(255, 255, 255);
+  width: 27rem;
+  height: 15rem;
+  transition: 0.5s linear;
+}
+.trends .trend-card .trends-text:hover {
+  transform: scale(1.03);
+}
+.trends .trend-card .trends-text h4, .trends .trend-card .trends-text .h4 {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: black;
+  padding: 15px 30px 30px 30px;
+}
+.trends .trend-card .trends-text p {
+  font-size: 1.4rem;
+  font-family: "Playfair Display, serif";
+  padding-top: 10px;
+}
+.trends .trend-card .trends-text a {
+  text-decoration: none;
+  color: black;
+}
+.trends .trend-card .trends-text a:hover {
+  color: rgb(90, 85, 85);
+}
+.trends .trend-card .trends-text a:hover h4, .trends .trend-card .trends-text a:hover .h4 {
+  color: rgb(90, 85, 85);
+}
+
+.blog-section {
+  text-align: center;
+}
+.blog-section .pagination {
+  display: inline-block;
+}
+.blog-section .pagination a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.blog-section .pagination a.active {
+  background-color: rgb(236, 217, 217);
+  color: black;
+}
+.blog-section .pagination a:hover {
+  background-color: rgb(189, 156, 156);
+}
+
+.service-part {
+  background-color: rgb(245, 245, 245);
+  height: 50rem;
+}
+.service-part .text-box {
+  padding: 0 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+}
+.service-part h4, .service-part .h4 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 3.6rem;
+  line-height: 4.6rem;
+  margin-bottom: 4.2rem;
+}
+.service-part .btn {
+  border: 1px solid;
+  border-radius: 0;
+  padding: 1rem;
+}
+.service-part img {
+  width: 55.8rem;
+  max-width: 100%;
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.service-part .even {
+  background-color: rgb(236, 217, 217);
+}
+@media (max-width: 992px) {
+  .service-part {
+    height: auto;
+  }
+  .service-part .text-box {
+    padding: 3rem;
+    align-items: center;
+    text-align: center;
+  }
+  .service-part h4, .service-part .h4 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .service-part .btn {
+    padding: 0.5rem;
+    margin-top: -2rem;
+  }
+}
+
+.services-single {
+  padding-top: 4rem;
+}
+.services-single img {
+  width: 100%;
+  padding-right: 5rem;
+  display: block;
+}
+.services-single h2, .services-single .h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 4.4rem;
+  line-height: 5.3rem;
+  margin-bottom: 3rem;
+}
+.services-single p {
+  font-size: 1.6rem;
+  font-family: "Lato", sans-serif;
+  line-height: 2.8rem;
+  font-weight: 300;
+  margin-right: 0;
+}
+@media (max-width: 992px) {
+  .services-single img {
+    padding-right: 0;
+    max-width: 100%;
+  }
+  .services-single h2, .services-single .h2 {
+    text-align: center;
+  }
+}
+
+.professionals-box {
+  padding: 3rem;
+  border: 2px solid rgb(236, 217, 217);
+}
+.professionals-box .professional-card {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 4rem;
+}
+.professionals-box .professional-content {
+  display: flex;
+  flex-direction: column;
+}
+.professionals-box .professional-img {
+  overflow: hidden;
+}
+.professionals-box img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  transition: 0.5s linear;
+}
+.professionals-box img:hover {
+  transform: scale(1.1);
+}
+.professionals-box h5, .professionals-box .h5 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 3.6rem;
+  line-height: 4.6rem;
+  margin-bottom: 1.7rem;
+}
+.professionals-box p {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  margin-bottom: 0;
+}
+.professionals-box .owl-theme .owl-dots {
+  text-align: center;
+}
+
+footer {
+  padding-top: 10.4rem;
+}
+footer .social-icon {
+  color: rgb(236, 217, 217);
+  margin-left: 2rem;
+  text-decoration: none;
+  font-size: 2rem;
+  transition: 0.9s linear;
+}
+footer .social-icon:hover {
+  transform: rotate(360deg);
+}
+footer .copyright {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: rgb(88, 108, 136);
 }/*# sourceMappingURL=theme.css.map */

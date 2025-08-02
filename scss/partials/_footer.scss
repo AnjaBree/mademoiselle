@@ -1,0 +1,22 @@
+footer {
+    padding-top: 10.4rem;
+
+    .social-icon {
+        color: rgba(236, 217, 217, 1);
+        margin-left: 2rem;
+        text-decoration: none;
+        font-size: 2rem;
+        transition: 0.9s linear;
+        &:hover {
+            transform: rotate(360deg);
+        }
+    }
+
+    .copyright {
+        font-family: $lato;
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        color:rgba(88, 108, 136, 1) ;
+    }
+}

@@ -62,6 +62,27 @@ $(document).ready(function(){
         });
     }
     
+
+    
+     if ($('.professionals-box').length > 0) {
+        $('.professionals-box').owlCarousel({
+            loop: true,
+            dots: true,
+            nav: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                992: {
+                    items: 1,
+                    nav: false,
+                    
+                }
+            }
+        });
+    }
+
+
     
 });
 
