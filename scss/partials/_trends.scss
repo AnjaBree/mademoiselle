@@ -1,5 +1,4 @@
 .trends {
-    
     .trends-title {
         padding: 65px 0;
     }
@@ -9,35 +8,29 @@
         align-items: center;
         display: flex;
         flex-direction: column;
-        margin-bottom: 10rem;
-        overflow: hidden;
-        
-
+        margin-bottom: 15rem;
+       
         @media (min-width:992px) {
-            margin-bottom: 5rem;
+            margin-bottom: 10rem;
         }
 
         img {
-            
             display: block;
             width: 35.6rem;
             height: 23.6rem;
             object-fit: cover;
             max-width: 100%;
-            transition: 0.5s linear;
 
-            &:hover {
-                transform: scale(1.03);
-            }
         }
+        
         .trends-text {
             position: absolute;
-            bottom: -7.5rem;
-            background-color: rgba(255, 255, 255, 1);
+            bottom: -8rem;
+            background-color: rgb(255 255 255 );
             width: 27rem;
-            height: 15rem;
+            height: 15.4rem;
             transition: 0.5s linear;
-
+            
             &:hover {
                 transform: scale(1.03);
             }
@@ -48,47 +41,49 @@
                 font-size: 1.6rem;
                 line-height: 2.4rem;
                 color: black;
-                padding: 15px 30px 30px 30px;
+                padding: 15px 30px 30px 30px;    
             }
+
             p {
                 font-size: 1.4rem;
                 font-family: $playfair;
                 padding-top: 10px;
-
             }
+
             a {
                 text-decoration: none;
                 color: black;
 
                 &:hover {
-                    color: rgb(90, 85, 85);
+                    color: rgb(90 85 85);
+
                     h4 {
-                        color: rgb(90, 85, 85);
+                        color: rgb(90 85 85);
                     }
                 }
             }
         } 
     }
 }
+
     .blog-section {
         text-align: center;
+
         .pagination {
             display: inline-block;
-            
-            
+                
             a {
                 color: black;
                 padding: 8px 16px;
                 text-decoration: none;
                 
-
                 &.active {
-                    background-color: rgba(236, 217, 217, 1);
+                    background-color: rgb(236 217 217 );
                     color: black;
                 }
 
                 &:hover {
-                    background-color:rgb(189, 156, 156) ;
+                    background-color:rgb(189 156 156) ;
                 }
             }
         }

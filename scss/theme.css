@@ -12204,7 +12204,7 @@ textarea.form-control-lg {
   }
 }
 .zoom {
-  animation: zoom 1s linear;
+  animation: zoom 2s linear;
   animation-fill-mode: forwards;
 }
 
@@ -12235,7 +12235,7 @@ hr {
 
 header .navbar-brand {
   max-width: 200px;
-  padding: 0px;
+  padding: 0;
 }
 header .navbar-brand img {
   display: block;
@@ -12289,6 +12289,12 @@ header .navbar-nav .nav-item .nav-link {
 .hero-section.blog-section {
   background-size: cover;
 }
+.hero-section.about-section {
+  background-size: cover;
+}
+.hero-section.error {
+  background-size: cover;
+}
 .hero-section h1, .hero-section .h1 {
   display: block;
   align-items: center;
@@ -12308,12 +12314,11 @@ header .navbar-nav .nav-item .nav-link {
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin-bottom: 10rem;
-  overflow: hidden;
+  margin-bottom: 15rem;
 }
 @media (min-width: 992px) {
   .trends .trend-card {
-    margin-bottom: 5rem;
+    margin-bottom: 10rem;
   }
 }
 .trends .trend-card img {
@@ -12323,17 +12328,13 @@ header .navbar-nav .nav-item .nav-link {
   -o-object-fit: cover;
      object-fit: cover;
   max-width: 100%;
-  transition: 0.5s linear;
-}
-.trends .trend-card img:hover {
-  transform: scale(1.03);
 }
 .trends .trend-card .trends-text {
   position: absolute;
-  bottom: -7.5rem;
+  bottom: -8rem;
   background-color: rgb(255, 255, 255);
   width: 27rem;
-  height: 15rem;
+  height: 15.4rem;
   transition: 0.5s linear;
 }
 .trends .trend-card .trends-text:hover {
@@ -12533,4 +12534,166 @@ footer .copyright {
   font-size: 1.5rem;
   line-height: 2.5rem;
   color: rgb(88, 108, 136);
+}
+
+.single-blog {
+  padding-top: 6.7rem;
+  padding-bottom: 10rem;
+}
+@media (max-width: 992px) {
+  .single-blog {
+    padding-top: 0;
+  }
+}
+.single-blog .row {
+  align-items: center;
+}
+.single-blog h1, .single-blog .h1 {
+  color: black;
+  font-family: "Playfair Display, serif";
+  font-weight: 400;
+  font-size: 4.4rem;
+  line-height: 5.3rem;
+}
+.single-blog p {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+}
+.single-blog .singleblog-img {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.single-blog .singleblog-img img {
+  width: 57rem;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.single-blog .blog-date {
+  color: black;
+  font-family: "Playfair Display, serif";
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 4.6rem;
+}
+
+.blog-content {
+  padding: 3rem 0;
+  padding-right: 50px;
+}
+
+.blog-caregories a {
+  text-decoration: none;
+  color: black;
+  font-family: "Playfair Display, serif";
+  font-weight: 700;
+  line-height: 4.6rem;
+  font-size: 1.4rem;
+}
+
+.single-blog-content p {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+}
+.single-blog-content img {
+  padding: 4.7rem 0;
+}
+
+.single-blog-tag {
+  padding-top: 3rem;
+  font-family: "Playfair Display, serif";
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 4.6rem;
+}
+
+.contact-section {
+  padding-top: 10rem;
+}
+.contact-section h1, .contact-section .h1 {
+  color: black;
+  font-family: "Playfair Display, serif";
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 4.6rem;
+}
+.contact-section .contact-form .form-group {
+  color: rgb(245, 245, 245);
+  padding-top: 1.4rem;
+  max-width: 500px;
+}
+.contact-section .contact-form .form-group .btn {
+  border-radius: 0;
+}
+.contact-section .contact-form .form-control {
+  padding: 1rem;
+  border-radius: 0;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+  border: 1px solid rgb(245, 245, 245);
+  background-color: rgb(245, 245, 245);
+}
+
+.contact-info {
+  background-color: rgb(236, 217, 217);
+  margin-top: 10rem;
+}
+.contact-info .contact {
+  padding: 7.4rem 0;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+}
+.contact-info .contact p {
+  padding-top: 1.9rem;
+}
+.contact-info .contact a {
+  text-decoration: none;
+  color: black;
+}
+
+.about-section {
+  padding-top: 10rem;
+  font-family: "Lato", sans-serif;
+}
+.about-section h1, .about-section .h1 {
+  font-weight: 400;
+  font-size: 4.4rem;
+  line-height: 5.3rem;
+  color: black;
+  font-family: "Lato", sans-serif;
+  max-width: 40rem;
+}
+.about-section p {
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  padding-top: 1.9rem;
+}
+.about-section .search {
+  border: solid 1px black;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 3.8rem;
+  font-family: "Playfair Display, serif";
+  font-size: 1.4rem;
+  line-height: 2rem;
+  font-weight: 500;
+  padding: 2rem;
+}
+
+.btn-error {
+  border: 1px solid;
+  border-radius: 0;
+  padding: 1rem;
+  margin-top: 6rem;
 }/*# sourceMappingURL=theme.css.map */

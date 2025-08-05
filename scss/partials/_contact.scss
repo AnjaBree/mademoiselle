@@ -1,0 +1,57 @@
+.contact-section {
+    padding-top: 10rem;
+
+
+    h1{
+        color: black;
+        font-family: $playfair;
+        font-weight: 500;
+        font-size: 3rem;
+        line-height: 4.6rem;
+    }
+
+    .contact-form {
+        .form-group {
+            color:rgb(245 245 245) ;
+            padding-top: 1.4rem; 
+            max-width: 500px;
+
+            .btn {
+                border-radius: 0;
+            }
+        }
+
+        .form-control {
+            padding: 1rem;
+            border-radius: 0;
+            font-family: $lato;
+            font-weight: 300;
+            font-size: 1.4rem;
+            line-height: 2.8rem;
+            border: 1px solid rgb(245 245 245);
+            background-color:rgb(245 245 245) ;
+        }
+    }
+}
+
+.contact-info {
+    background-color: rgb(236 217 217 );
+    margin-top: 10rem;
+    
+    .contact {
+        padding: 7.4rem 0;
+        font-family: $lato;
+        font-weight: 500;
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+        
+        p {
+            padding-top: 1.9rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    }
+}

@@ -1,6 +1,7 @@
 .service-part {
-    background-color: rgba(245, 245, 245, 1);
+    background-color: rgb(245 245 245);
     height: 50rem;  
+
     .text-box {
         padding: 0 5rem;
         display: flex;
@@ -11,6 +12,7 @@
         height: 100%;
         
     }
+
     h4 {
         font-family: $lato;
         font-weight: 400;
@@ -19,12 +21,14 @@
         margin-bottom:4.2rem ;
         
     }
+
     .btn {
         border: 1px solid;
         border-radius: 0;
         padding: 1rem ;
        
     }
+
     img {
         width: 55.8rem;
         max-width: 100%;
@@ -33,35 +37,42 @@
         height: 100%;
        object-fit: cover;
     }
+
      .even {
-        background-color: rgba(236, 217, 217, 1);
+        background-color: rgb(236 217 217 );
     }
+
     @media (max-width:992px) {   
         height: auto;
+        
         .text-box {
             padding: 3rem;
             align-items: center;
             text-align: center;
         }
+
         h4 {
             font-size: 2rem;
             line-height: 3rem;
         }
+
         .btn {
             padding: 0.5rem;
             margin-top: -2rem;
         }
     }
 }
+
 .services-single {
     padding-top:4rem ;
+
     img {
         width: 100%;
         padding-right: 5rem;
         display: block;
        
-
     }
+
     h2 {
         font-family: $lato;
         font-weight: 400;
@@ -69,6 +80,7 @@
         line-height: 5.3rem;
         margin-bottom: 3rem;
     }
+
     p {
         font-size: 1.6rem;
         font-family: $lato;
@@ -76,11 +88,14 @@
         font-weight: 300;
         margin-right: 0;
     }
+
     @media (max-width:992px) {
+
         img {
             padding-right: 0;
             max-width: 100%;
         }
+
         h2  {
             text-align: center;
         }
