@@ -12543,6 +12543,7 @@ footer .copyright {
 @media (max-width: 992px) {
   .single-blog {
     padding-top: 0;
+    padding-bottom: 1rem;
   }
 }
 .single-blog .row {
@@ -12679,6 +12680,11 @@ footer .copyright {
   line-height: 2.6rem;
   padding-top: 1.9rem;
 }
+@media (max-width: 992px) {
+  .about-section .serach-form {
+    text-align: center;
+  }
+}
 .about-section .search {
   border: solid 1px black;
   width: 100%;
@@ -12689,6 +12695,11 @@ footer .copyright {
   line-height: 2rem;
   font-weight: 500;
   padding: 2rem;
+}
+@media (max-width: 992px) {
+  .about-section .search {
+    width: 50%;
+  }
 }
 
 .btn-error {
